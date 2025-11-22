@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: budgetwise_cookie_key_12345
+  name: budgetwise_auth_cookie
+credentials:
+  usernames:
+    admin:
+      email: admin@budgetwise.com
+      first_name: Admin
+      last_name: User
+      password: $2b$12$KIXXqEi6qN5vZjKHLpZmIuXGQB6Ym8QIXH2yGXxqYJZqYrQlHFQJO
+      roles:
+      - admin
+    demo:
+      email: demo@budgetwise.com
+      failed_login_attempts: 8
+      first_name: Demo
+      last_name: User
+      password: $2b$12$KIXXqEi6qN5vZjKHLpZmIuXGQB6Ym8QIXH2yGXxqYJZqYrQlHFQJO
+      roles:
+      - user
